@@ -55,11 +55,12 @@ function isOver() {
   if (count >= 23) {
     setTimeout(() => {
       alert("Oyun bitdi!");
+      location.reload();
     }, 500);
   }
 }
 
 window.onerror = function (message, url, lineNumber) {
-    // maybe some handling?
-    return true; // prevents browser error messages
-  };
+  // maybe some handling?
+  return true; // prevents browser error messages
+};
