@@ -1,0 +1,34 @@
+.highlight {
+  max-height: 50px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.holder {
+  background-color: #cbd7e4;
+  position: relative;
+}
+
+.link {
+  color: #2f6f9f;
+}
+.hric {
+  color: #006ee0;
+}
+.databody {
+  color: #d73038;
+}
+code {
+  color: black;
+}
+.copyBtn {
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  opacity: 0.7;
+}
+.copied {
+  opacity: 1;
+}

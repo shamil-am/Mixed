@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/14b26c7631.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-12 col-lg-4 offset-lg-4">
+          <div class="header">
+            <h2 class="text-center text-light">Create Account</h2>
+          </div>
+          <form class="form p-3 rounded" id="form">
+            <div class="form-control">
+              <label for="username">Username</label>
+              <input type="text" placeholder="shamil-mmdv" id="username" />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                placeholder="shamil.mammadov@gmail.com"
+                id="email"
+              />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                placeholder="Password"
+                id="password"
+                autocomplete="off"
+              />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+              <label for="password2">Password check</label>
+              <input
+                type="password"
+                placeholder="Password again"
+                id="password2"
+                autocomplete="off"
+              />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+              <button class="btn btn-same w-100">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #9b59b6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  background-color: white;
+}
+.form-control {
+  border: none !important;
+  border-radius: 0 !important;
+  position: relative;
+}
+.form-control input {
+  display: block;
+  width: 100%;
+  border: 2px solid #f0f0f0;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+.form-control.success input {
+  border: 2px solid #2ecc71;
+}
+.form-control.error input {
+  border: 2px solid #e74c3c;
+}
+.form-control label {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.form-control i {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(-50%, -25%);
+  visibility: hidden;
+}
+.form-control.success i.fa-check-circle {
+  visibility: visible;
+  color: #2ecc71;
+}
+.form-control.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+.form-control small {
+  font-size: 0.75rem;
+  font-family: inherit;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
+.btn-same {
+  background-color: #9b59b6;
+  color: #fff;
+}
