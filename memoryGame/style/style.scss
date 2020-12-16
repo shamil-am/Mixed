@@ -1,0 +1,28 @@
+.container {
+  padding-top: 1rem;
+  .row {
+    margin: 0.5rem;
+    .col-2 {
+      border: 2px solid #000000;
+      overflow: hidden;
+      background-color: #b4f8c8;
+      position: relative;
+      :hover {
+        cursor: pointer;
+      }
+      img {
+        width: 100%;
+        height: 10rem;
+      }
+      .cover {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #fbe7c6;
+        opacity: 1;
+      }
+    }
+  }
+}
