@@ -59,9 +59,7 @@ function isOver() {
   }
 }
 
-// console.log = function () {};
-
-// window.onerror = function (message, url, lineNumber) {
-//     // maybe some handling?
-//     return true; // prevents browser error messages
-//   };
+window.onerror = function (message, url, lineNumber) {
+    // maybe some handling?
+    return true; // prevents browser error messages
+  };
