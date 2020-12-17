@@ -1,0 +1,124 @@
+body {
+  background-color: #74ebe5;
+}
+
+body .container .row .col-6 .holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .row .col-6 .holder .top #box1 {
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+body .container .row .col-6 .holder .top #box2 {
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+body .container .row .col-6 .holder .top #box3 {
+  border-bottom: 3px solid #000;
+}
+
+body .container .row .col-6 .holder .middle #box4 {
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+body .container .row .col-6 .holder .middle #box5 {
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+body .container .row .col-6 .holder .middle #box6 {
+  border-bottom: 3px solid #000;
+}
+
+body .container .row .col-6 .holder .bottom #box7 {
+  border-right: 3px solid #000;
+}
+
+body .container .row .col-6 .holder .bottom #box8 {
+  border-right: 3px solid #000;
+}
+
+body .container .row .col-6 .holder #box1,
+body .container .row .col-6 .holder #box2,
+body .container .row .col-6 .holder #box3,
+body .container .row .col-6 .holder #box4,
+body .container .row .col-6 .holder #box5,
+body .container .row .col-6 .holder #box6,
+body .container .row .col-6 .holder #box7,
+body .container .row .col-6 .holder #box8,
+body .container .row .col-6 .holder #box9 {
+  height: 5rem;
+  width: 5rem;
+  font-size: 3rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body .container .row .col-6 .holder #box1:hover,
+body .container .row .col-6 .holder #box2:hover,
+body .container .row .col-6 .holder #box3:hover,
+body .container .row .col-6 .holder #box4:hover,
+body .container .row .col-6 .holder #box5:hover,
+body .container .row .col-6 .holder #box6:hover,
+body .container .row .col-6 .holder #box7:hover,
+body .container .row .col-6 .holder #box8:hover,
+body .container .row .col-6 .holder #box9:hover {
+  cursor: pointer;
+  background-color: #9fa3a385;
+}
+
+.middleLine::after {
+  content: "";
+  height: 5rem;
+  width: 0.25rem;
+  position: absolute;
+  background-color: #000;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.rotateMin45::after {
+  content: "";
+  height: 7rem;
+  width: 0.25rem;
+  position: absolute;
+  background-color: #000;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.verticalLine::after {
+  content: "";
+  height: 7rem;
+  width: 0.25rem;
+  position: absolute;
+  background-color: #000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.rotate45::after {
+  content: "";
+  height: 7rem;
+  width: 0.25rem;
+  position: absolute;
+  background-color: #000;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+/*# sourceMappingURL=style.css.map */

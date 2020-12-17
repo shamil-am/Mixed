@@ -1,0 +1,108 @@
+body {
+  background-color: #74ebe5;
+  .container {
+    .row {
+      .col-6 {
+        .holder {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .top {
+            #box1 {
+              border-right: 3px solid #000;
+              border-bottom: 3px solid #000;
+            }
+            #box2 {
+              border-right: 3px solid #000;
+              border-bottom: 3px solid #000;
+            }
+            #box3 {
+              border-bottom: 3px solid #000;
+            }
+          }
+          .middle {
+            #box4 {
+              border-right: 3px solid #000;
+              border-bottom: 3px solid #000;
+            }
+            #box5 {
+              border-right: 3px solid #000;
+              border-bottom: 3px solid #000;
+            }
+            #box6 {
+              border-bottom: 3px solid #000;
+            }
+          }
+          .bottom {
+            #box7 {
+              border-right: 3px solid #000;
+            }
+            #box8 {
+              border-right: 3px solid #000;
+            }
+          }
+          //for styles are same in all box
+          #box1,
+          #box2,
+          #box3,
+          #box4,
+          #box5,
+          #box6,
+          #box7,
+          #box8,
+          #box9 {
+            height: 5rem;
+            width: 5rem;
+            font-size: 3rem;
+            user-select: none;
+            &:hover {
+              cursor: pointer;
+              background-color: #9fa3a385;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.middleLine {
+  &::after {
+    content: "";
+    height: 5rem;
+    width: 0.25rem;
+    position: absolute;
+    background-color: #000;
+    transform: rotate(90deg);
+  }
+}
+.rotateMin45 {
+  &::after {
+    content: "";
+    height: 7rem;
+    width: 0.25rem;
+    position: absolute;
+    background-color: #000;
+    transform: rotate(-45deg);
+  }
+}
+.verticalLine {
+  &::after {
+    content: "";
+    height: 7rem;
+    width: 0.25rem;
+    position: absolute;
+    background-color: #000;
+    transform: rotate(0deg);
+  }
+}
+.rotate45 {
+  &::after {
+    content: "";
+    height: 7rem;
+    width: 0.25rem;
+    position: absolute;
+    background-color: #000;
+    transform: rotate(45deg);
+  }
+}

@@ -54,7 +54,7 @@ function isOver() {
   });
   if (count >= 23) {
     setTimeout(() => {
-      alert("Oyun bitdi!");
+      alert("Game Over!");
       location.reload();
     }, 500);
   }
